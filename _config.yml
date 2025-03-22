@@ -14,13 +14,12 @@ timezone: Europe/Amsterdam
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: badclick.org # the main title
+title: Nick Writes Things # the main title
 
-tagline: Cybersecurity for Modern Organizations – With a Focus on Non-Profits # it will display as the subtitle
+tagline: Security, Cloud, Kubernetes, macOS, Life. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Providing cybersecurity insights, tools, and guidance to
-  help non-profits protect their digital assets and build a stronger security posture.
+  Sharing practical insights on security, cloud, Kubernetes, and macOS—plus thoughts on tech, tools, and life. Built for those who care about doing things right.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
