@@ -1,3 +1,10 @@
+---
+title: "Welcome"
+date: 2025-08-03 10:00:00 +0100
+categories: [General]
+tags: [OIDC, Terraform Cloud, Azure, JWT, AzureRM, Federated Identity, App Registration, Token Exchange, CI/CD, HashiCorp, DevSecOps]
+---
+
 Learning OIDC with Terraform Cloud and Azure: A Journey of Integration, Errors, and Resolution
 
 Today I embarked on a deep dive into setting up OIDC (OpenID Connect) between Terraform Cloud and Azure, aiming to eliminate secrets and adopt secure, token-based authentication for infrastructure deployments. Here’s a structured recap of what I learned, the hurdles I faced, and how I overcame them.
