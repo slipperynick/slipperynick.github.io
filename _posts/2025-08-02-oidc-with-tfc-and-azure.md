@@ -76,3 +76,46 @@ provider "azurerm" {
   features {}
   use_oidc = true
 }
+```
+
+---
+
+### ❌ Error: AADSTS700213 - No matching federated identity record
+
+**Cause:** Subject, Audience, or Issuer did not match.
+
+**Fix:**
+
+- Double-checked subject string format
+- Verified audience as `api://AzureADTokenExchange`
+- Confirmed issuer matches the Terraform Cloud OIDC endpoint
+
+---
+
+## 5. What I Learned
+
+- Azure issues short-lived access tokens, usually valid for 60 minutes, based on the OIDC JWT.
+- Azure uses a public OIDC Discovery endpoint to fetch the public keys to validate the signature.
+- Terraform Cloud sends the signed token, and Azure verifies its authenticity without needing Terraform’s private key — it’s a one-way trust relationship.
+
+---
+
+## 6. Security Note
+
+While `tenant_id` and `subscription_id` are not secrets, they are sensitive and should be stored in GitHub secrets or environment variables — never committed to source control.
+
+---
+
+## 7. Final Thoughts
+
+This was a rewarding journey through cloud identity federation. I learned not only how to integrate Terraform Cloud with Azure via OIDC, but also how the modern cloud handles identity, tokens, and secure access without traditional secrets.
+
+Despite the confusing error messages and initial setup complexity, the end result is a clean, secure, and elegant authentication flow.
+
+---
+
+## References
+
+- [Terraform Cloud Azure Configuration Docs](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/azure-configuration#configure-hcp-terraform)
+- [Terraform Cloud](https://app.terraform.io)
+- [Azure Portal](https://portal.azure.com)
