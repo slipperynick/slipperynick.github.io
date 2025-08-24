@@ -33,7 +33,7 @@ This makes switching between accounts much easier during the process.
 6. Set visibility to **Public** (or *Unlisted* if you prefer).  
 7. Click **Create**.  
 
-📸 *[Insert screenshot: creating a new playlist in YouTube Studio]*  
+![Screenshot: Creating new playlist](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step1.png)
 
 ---
 
@@ -45,7 +45,7 @@ This makes switching between accounts much easier during the process.
 4. Toggle **“Allow collaborators to add videos”**.  
 5. Copy the **invite link**.  
 
-📸 *[Insert screenshot: enabling collaboration and copying invite link]*  
+![Screenshot: Finished playlist in new account](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step3.png)  
 
 ---
 
@@ -55,7 +55,7 @@ This makes switching between accounts much easier during the process.
 2. Paste the invite link in your browser.  
 3. Click **Join Playlist** when prompted.  
 
-📸 *[Insert screenshot: accepting collaboration invite in the old account]*  
+![Screenshot: Accept Collaboration in the Old Account](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step4.png)  
 
 ---
 
@@ -67,7 +67,7 @@ This makes switching between accounts much easier during the process.
 4. Choose the **new account’s collaborative playlist** (the one you just created).  
 5. All videos from the old playlist will now copy into the new one.  
 
-📸 *[Insert screenshot: “Add all to…” menu with new playlist selected]*  
+![Screenshot: Copy Videos From Old Playlist](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step5.png)  
 
 ---
 
@@ -77,8 +77,6 @@ This makes switching between accounts much easier during the process.
 2. Open the playlist and confirm all videos copied correctly.  
 3. Return to the **Collaborate** settings.  
 4. Turn **collaboration off** to lock the playlist to your ownership.  
-
-📸 *[Insert screenshot: finished playlist in new account]*  
 
 ---
 
