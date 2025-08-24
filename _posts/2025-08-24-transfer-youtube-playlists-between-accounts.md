@@ -33,7 +33,7 @@ This makes switching between accounts much easier during the process.
 6. Set visibility to **Public** (or *Unlisted* if you prefer).  
 7. Click **Create**.  
 
-![Screenshot: Creating new playlist](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step1.png)
+![Screenshot: Creating new playlist](/assets/img/posts/2025-08-23-transfer-youtube-playlists/yt-transfer-step2.png)
 
 ---
 
