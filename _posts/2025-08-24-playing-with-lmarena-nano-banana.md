@@ -10,7 +10,7 @@ tags: [LM Arena, NanoBanana, AI Models, Fun, Dog Photos]
 Over the weekend I was experimenting with **LM Arena**, and stumbled across the mysterious **NanoBanana model**.  
 Some people online are speculating it might be tied to Google’s new research models—whatever the case, it’s been a lot of fun to play with.
 
-I decided to test it out with a few pictures of my dog and his friends 🐕.  
+I decided to test it out with a few pictures of my dog and his sister.  
 The results were both **funny** and **surprisingly good**—a mix of realism and playful exaggeration that made me lolz.
 
 Here are a couple of the generations:

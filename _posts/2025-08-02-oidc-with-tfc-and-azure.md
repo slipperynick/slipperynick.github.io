@@ -1,7 +1,7 @@
 ---
 title: "Learning OIDC with Terraform Cloud and Azure: A Journey of Integration, Errors, and Resolution"
 date: 2025-08-02 10:00:00 +0000
-categories: [General]
+categories: [Security]
 tags: [OIDC, Terraform Cloud, Azure, JWT, AzureRM, Federated Identity, App Registration, Token Exchange, CI/CD, HashiCorp, DevSecOps]
 ---
 

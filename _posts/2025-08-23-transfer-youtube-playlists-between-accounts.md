@@ -1,7 +1,7 @@
 ---
 title: "How to Transfer YouTube Playlists Between Google Accounts Using Collaboration"
 date: 2025-08-23 22:30:00 +0000
-categories: [General]
+categories: [Tech]
 tags: [YouTube, Google Workspace, Playlist Migration, Collaboration, Account Transfer]
 ---
 
