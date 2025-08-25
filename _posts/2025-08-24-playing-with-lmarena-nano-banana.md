@@ -1,6 +1,6 @@
 ---
 title: "Playing with LM Arena and NanoBanana"
-date: 2025-08-25 10:00:00 +0000
+date: 2025-08-24 10:00:00 +0000
 categories: [Tech]
 tags: [LM Arena, NanoBanana, AI Models, Fun, Dog Photos]
 ---
