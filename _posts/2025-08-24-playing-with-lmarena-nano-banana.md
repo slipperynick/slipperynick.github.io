@@ -15,7 +15,7 @@ The results were both **funny** and **surprisingly good**—a mix of realism and
 
 Here are a couple of the generations:
 
-![Nano Banana - Dog Vacation 1](assets/img/posts/2025-08-24-playing-with-lmarena-nano-banana/dog1.jpg)  
-![Nano Banana - Dog Vacation 2](assets/img/posts/2025-08-24-playing-with-lmarena-nano-banana/dog2.jpg)  
+![Nano Banana - Dog Vacation 1](assets/img/posts/2025-08-24-playing-with-lmarena-nano-banana/dog1.jpeg)  
+![Nano Banana - Dog Vacation 2](assets/img/posts/2025-08-24-playing-with-lmarena-nano-banana/dog2.jpeg)  
 
 It’s exciting to see how quickly these open models are evolving. I’ll definitely keep exploring LM Arena to see what else comes up.
