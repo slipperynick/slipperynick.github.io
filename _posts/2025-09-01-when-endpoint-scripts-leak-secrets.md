@@ -91,5 +91,3 @@ Here are some practical steps:
 This issue may look small, but it cuts across endpoint security, API security, and trust in management tooling. If your MDM automation leaks credentials, you’ve effectively handed attackers the keys to your environment. Once an attacker has access to your MDM, all your endpoints are compromised and will possibly lead to lateral movement.
 
 The takeaway is simple: don’t let your scripts be the weakest link. Audit them, protect your tokens, and push vendors to follow better practices.  
-
-If you want to try a proof-of-concept for yourself, I’ll be publishing an example script on GitHub soon (link coming).
