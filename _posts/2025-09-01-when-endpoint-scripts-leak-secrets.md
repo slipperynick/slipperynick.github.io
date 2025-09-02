@@ -39,42 +39,41 @@ You can verify whether this affects you:
 
 1. Trigger a script on your endpoint that makes API calls.  
 2. In another terminal, run:  
-
-   ps aux | grep API  
-
+    ```bash
+    ps aux | grep API  
+    ```
 3. Watch for exported variables or arguments that include credentials.  
 
 If you see your token, it’s exposed.
 
 4. Alternatively, use this script to monitor - [repo here](https://github.com/slipperynick/endpoint-secrets-poc)
-```bash
-#!/bin/bash
+    ```bash
+    #!/bin/bash
 
-SECRETS=("secret" "token" "HUMAN" "API_TOKEN" "API_KEY" "SECRET_KEY" "ACCESS_TOKEN" "AUTH_TOKEN" "API_SECRET" "PASSWORD" "azureBlobToken" "clientSecret")  # Replace with your desired secrets
+    SECRETS=("secret" "token" "HUMAN" "API_TOKEN" "API_KEY" "SECRET_KEY" "ACCESS_TOKEN" "AUTH_TOKEN" "API_SECRET" "PASSWORD" "azureBlobToken" "clientSecret")  # Replace with your desired secrets
 
-while true; do
-  for SECRET in "${SECRETS[@]}"; do
-    # Get the list of process IDs (PIDs) for processes containing the secret
-    PIDS=$(pgrep -f "$SECRET")
+    while true; do
+    for SECRET in "${SECRETS[@]}"; do
+        # Get the list of process IDs (PIDs) for processes containing the secret
+        PIDS=$(pgrep -f "$SECRET")
 
-    if [ -n "$PIDS" ]; then
-      # Secret found in process command-line options
-      echo "Secret '$SECRET' found in processes:"
-      ps -wwp "$PIDS" -o pid,ppid,command
-    fi
-  done
+        if [ -n "$PIDS" ]; then
+        # Secret found in process command-line options
+        echo "Secret '$SECRET' found in processes:"
+        ps -wwp "$PIDS" -o pid,ppid,command
+        fi
+    done
 
-  sleep 1  # Adjust the interval between checks as needed
-done
-
-```
+    sleep 1  # Adjust the interval between checks as needed
+    done
+    ```
 
 ## Real-world lessons
 
 I’ve seen this play out in a couple different ways:
 
 - **Jamf:** Years ago, I noticed brute-force attempts against the Jamf API. At the time, Jamf didn’t seem to block or even detect these attempts (hopefully that has improved today).  
-- **Workspace ONE:** While implementing VMware Workspace ONE’s OS auto-update functionality, I discovered that their updater script (MacOS Update Utility / mUU) exported API credentials in this exact way. I raised the issue — and to VMware’s credit, [they fixed it] (https://github.com/euc-oss/euc-samples/blob/main/UEM-Samples/Utilities%20and%20Tools/macOS/macOS%20Updater%20Utility/README.md#api-credentials).  
+- **Workspace ONE:** While implementing VMware Workspace ONE’s OS auto-update functionality, I discovered that their updater script (macOS Update Utility / mUU) exported API credentials in this exact way. I raised the issue — and to VMware’s credit, [they fixed it](https://github.com/euc-oss/euc-samples/blob/main/UEM-Samples/Utilities%20and%20Tools/macOS/macOS%20Updater%20Utility/README.md#api-credentials).
 
 These experiences reinforced an important point: vendors don’t always get this right. Sometimes it’s up to admins to spot and report flaws.
 
