@@ -1,6 +1,6 @@
 ---
 title: "Cloudflare WAF (Part 1): Setting Up a Lab with Workers and Custom Rules"
-date: 2025-09-03 12:00:00 +0000
+date: 2025-09-02 12:00:00 +0000
 categories: [Security]
 tags: [Cloudflare, WAF, DevSecOps, Lab, Terraform]
 ---
@@ -21,7 +21,7 @@ This is **Part 1**, where I set up the basics:
 Instead of spinning up a VM, I used Cloudflare **Workers**. A Worker is a tiny serverless function that runs at the Cloudflare edge. Mine just returns a “Hello World” response, but that’s enough for testing.  
 
 **Screenshot: Worker setup**  
-![Worker Setup](/assets/img/posts/2025-09-03-cloudflare-waf-part1/worker-setup.png)  
+![Worker Setup](/assets/img/posts/2025-09-02-cloudflare-waf-part1/worker-setup.png)  
 
 ---
 
@@ -34,7 +34,7 @@ You can do this in two ways:
 - **Routes** (more flexible: e.g. `harripersad.org/*`, `www.harripersad.org/*`).  
 
 **Screenshot: Custom route configuration**  
-![Custom Route](/assets/img/posts/2025-09-03-cloudflare-waf-part1/custom-route.png)  
+![Custom Route](/assets/img/posts/2025-09-02-cloudflare-waf-part1/custom-route.png)  
 
 ---
 
@@ -46,7 +46,7 @@ Since I don’t have a real webserver behind the domain, I added a **dummy A rec
 - `CNAME  www  harripersad.org  Proxied`  
 
 **Screenshot: DNS management**  
-![DNS Management](/assets/img/posts/2025-09-03-cloudflare-waf-part1/dns-records.png)  
+![DNS Management](/assets/img/posts/2025-09-02-cloudflare-waf-part1/dns-records.png)  
 
 ---
 
@@ -66,8 +66,8 @@ curl -i https://harripersad.org/isblocked
 ```
 
 **Screenshot: Rule 1 setup**  
-![Rule 1](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-isblocked.png)  
-![Rule 1 Test](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-isblocked2.png)  
+![Rule 1](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked.png)  
+![Rule 1 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked2.png)  
 ---
 
 ### Rule 2: Block curl User-Agent
@@ -82,8 +82,8 @@ curl -i https://harripersad.org/
 ```
 
 **Screenshot: Rule 2 setup**  
-![Rule 2](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-curl.png)
-![Rule 2 Test](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-curl2.png)
+![Rule 2](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl.png)
+![Rule 2 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl2.png)
 
 ---
 
@@ -99,8 +99,8 @@ curl -i "https://harripersad.org/?q=<script>alert(1)</script>"
 ```
 
 **Screenshot: Rule 3 setup**  
-![Rule 3](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-script.png)
-![Rule 3 Test](/assets/img/posts/2025-09-03-cloudflare-waf-part1/rule-script2.png)
+![Rule 3](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script.png)
+![Rule 3 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script2.png)
 
 ---
 
@@ -109,7 +109,7 @@ curl -i "https://harripersad.org/?q=<script>alert(1)</script>"
 Finally, I checked **Security → Events** in the Cloudflare dashboard. All my test requests appeared there with the right **Rule Name**, **Action: Block**, and request details.  
 
 **Screenshot: Security Events**  
-![Security Events](/assets/img/posts/2025-09-03-cloudflare-waf-part1/security-events.png)  
+![Security Events](/assets/img/posts/2025-09-02-cloudflare-waf-part1/security-events.png)  
 
 ---
 
