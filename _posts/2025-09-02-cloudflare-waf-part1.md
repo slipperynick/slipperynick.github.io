@@ -60,13 +60,15 @@ On the Free plan, Cloudflare doesn’t provide Managed WAF rules (that’s Pro+)
 - **Value:** `/blocked`  
 - **Action:** Block  
 
+
+**Screenshot: Rule 1 setup**  
+![Rule 1](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked.png)
+
 Test:  
 ```bash
 curl -i https://harripersad.org/isblocked
 ```
 
-**Screenshot: Rule 1 setup**  
-![Rule 1](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked.png)
 **Screenshot: Rule 1 test**
 ![Rule 1 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked2.png)  
 ---
@@ -77,13 +79,13 @@ curl -i https://harripersad.org/isblocked
 - **Value:** `curl`  
 - **Action:** Block  
 
+**Screenshot: Rule 2 setup**  
+![Rule 2](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl.png)
+
 Test:  
 ```bash
 curl -i https://harripersad.org/
 ```
-
-**Screenshot: Rule 2 setup**  
-![Rule 2](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl.png)
 
 **Screenshot: Rule 2 test**  
 ![Rule 2 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl2.png)
@@ -96,16 +98,15 @@ curl -i https://harripersad.org/
 - **Value:** `<script>`  
 - **Action:** Block  
 
+**Screenshot: Rule 3 setup**  
+![Rule 3](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script.png)
+
 Test:  
 ```bash
 curl -i "https://harripersad.org/?q=<script>alert(1)</script>"
 ```
 
-**Screenshot: Rule 3 setup**  
-![Rule 3](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script.png)
-
 **Screenshot: Rule 3 test**  
-
 ![Rule 3 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script2.png)
 
 ---
@@ -127,4 +128,5 @@ With this setup, I’ve got a working WAF lab on a spare domain — all on the F
 
 Whats next  **Part 2**?
 - Migrate to terraform for rule creation
+- Test for specific rules
 - Test paid functionality? :)
