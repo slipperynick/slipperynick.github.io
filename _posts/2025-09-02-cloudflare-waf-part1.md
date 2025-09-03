@@ -66,7 +66,8 @@ curl -i https://harripersad.org/isblocked
 ```
 
 **Screenshot: Rule 1 setup**  
-![Rule 1](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked.png)  
+![Rule 1](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked.png)
+**Screenshot: Rule 1 test**
 ![Rule 1 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-isblocked2.png)  
 ---
 
@@ -83,6 +84,8 @@ curl -i https://harripersad.org/
 
 **Screenshot: Rule 2 setup**  
 ![Rule 2](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl.png)
+
+**Screenshot: Rule 2 test**  
 ![Rule 2 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-curl2.png)
 
 ---
@@ -100,6 +103,9 @@ curl -i "https://harripersad.org/?q=<script>alert(1)</script>"
 
 **Screenshot: Rule 3 setup**  
 ![Rule 3](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script.png)
+
+**Screenshot: Rule 3 test**  
+
 ![Rule 3 Test](/assets/img/posts/2025-09-02-cloudflare-waf-part1/rule-script2.png)
 
 ---
