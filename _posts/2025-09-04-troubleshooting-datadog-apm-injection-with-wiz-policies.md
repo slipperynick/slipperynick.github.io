@@ -5,7 +5,7 @@ categories: [Tech, Reflections]
 tags: [Kubernetes, Admission Controllers, Datadog, Wiz, Helm, AI, Troubleshooting]
 ---
 
-# Troubleshooting Datadog APM Injection with Wiz Policies: What I Learned About Admission Controllers, AI, and Myself
+# Troubleshooting Datadog APM Injection with Wiz Policies: What I Learned About Admission Controllers & AI
 
 Today a colleague brought me an issue: **Wiz was blocking Pods** in one of our Kubernetes clusters. The YAML looked fine, the Pods were set up with `runAsNonRoot` and `readOnlyRootFilesystem: true`. Everything should have passed. But Wiz kept blocking them.  
 
