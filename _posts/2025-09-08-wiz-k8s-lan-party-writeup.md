@@ -86,4 +86,4 @@ This CTF reinforced that Kubernetes security isnâ€™t just about pods and RBAC â€
 
 ---
 
-https://k8slanparty.com/certificate/aw3skPGL
+[My K8s LAN Party Certificate](https://k8slanparty.com/certificate/aw3skPGL)
