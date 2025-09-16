@@ -91,7 +91,7 @@ resource "cloudflare_ruleset" "custom" {
 ```
 ---
 
-## 🧩 Learnings Along the Way
+## Learnings Along the Way
 
 - **Phases matter**  
   Each Cloudflare request goes through stages called *phases*. For custom rules you must use the phase `http_request_firewall_custom`. And crucially, only **one ruleset per phase** is allowed per zone.  
