@@ -3,7 +3,6 @@ title: "Homelabbing Part #1 — Low-Power Proxmox on the MeLE N100 w/ RunZero"
 date: 2025-10-08 21:00 +0200
 categories: [Homelab, Proxmox]
 tags: [homelab, proxmox, mele-n100, runzero, low-power, vmware, dream-router, synology]
-description: "Rebuilding my homelab after a few years away — this time on a low-power MeLE N100 mini PC running Proxmox VE."
 ---
 
 After a few years away, I’ve started rebuilding my homelab again — this time with a focus on **simplicity, efficiency, and silence**.  
@@ -69,7 +68,7 @@ Exactly what I was aiming for: a quiet, always-on platform that doesn’t waste 
 ![RunZero scan results](/assets/img/posts/2025-10-08-homelab-part1/homelab4.jpeg)
 
 Inside the Debian VM, I installed **runZero Explorer** to rediscover everything on my LAN.  
-Within minutes it identified my Proxmox host, NAS, and other devices — a great baseline for inventory and security mapping. I also realized it had been awhile since I used RunZero and it also has vulnerability information which it already helped me realize I need to patch a few of those IoT devices.
+Within minutes it identified my Proxmox host, laptops and IoT devices — a great baseline for inventory of your network. I also realized it had been awhile since I used RunZero and it also has vulnerability data which it pointed out a need to patch a few of my devices.
 
 ---
 
