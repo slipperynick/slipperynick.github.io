@@ -25,9 +25,9 @@ Before this minimal setup, I used to run a larger, more complex lab. It was cent
 That setup included:
 - VLAN segmentation between work and home Wi-Fi (so corporate and personal traffic never touched)
 
-![Old homelab gear 1](/assets/img/posts/2025-10-08-homelab-part1/old-homelab1.jpg)
+![Old homelab gear 1](/assets/img/posts/2025-10-08-homelab-part1/old-homelab1.jpeg)
 
-![Old homelab gear 2](/assets/img/posts/2025-10-08-homelab-part1/old-homelab2.jpg)
+![Old homelab gear 2](/assets/img/posts/2025-10-08-homelab-part1/old-homelab2.jpeg)
 
 
 Fast-forward about three or four years, moving continents, and a lot of simplification later — I’m starting again, keeping things *as minimal as possible* this time around.
