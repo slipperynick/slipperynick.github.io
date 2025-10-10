@@ -1,5 +1,5 @@
 ---
-title: "Homelabbing — Low-Power Proxmox on the MeLE N100 w/ RunZero"
+title: "Homelabbing Part 1 — Low-Power Proxmox on the MeLE N100 w/ RunZero"
 date: 2025-10-08 21:00 +0200
 categories: [Homelab, Proxmox]
 tags: [homelab, proxmox, mele-n100, runzero, low-power, vmware, dream-router, synology]
