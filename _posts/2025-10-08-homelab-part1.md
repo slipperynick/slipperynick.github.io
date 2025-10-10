@@ -67,7 +67,7 @@ Exactly what I was aiming for: a quiet, always-on platform that doesn’t waste 
 
 ## 🔍 RunZero Explorer Installed
 
-![RunZero scan results](/assets/img/posts/2025-10-08-homelab-part1/homelab4.jpg)
+![RunZero scan results](/assets/img/posts/2025-10-08-homelab-part1/homelab4.jpeg)
 
 Inside the Debian VM, I installed **runZero Explorer** to rediscover everything on my LAN.  
 Within minutes it identified my Proxmox host, NAS, and other devices — a great baseline for inventory and security mapping. I also realized it had been awhile since I used RunZero and it also has vulnerability information which it already helped me realize I need to patch a few of those IoT devices.
