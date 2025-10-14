@@ -1,5 +1,5 @@
 ---
-title: "Homelabing Part 2: Talos Linux"
+title: "Homelabbing Part 2: Talos Linux"
 date: 2025-10-13 10:00:00 +0200
 categories: [Homelab, Kubernetes]
 tags: [homelab, talos linux, linux, kubernetes, chainguard, WizOS, edgecase]
