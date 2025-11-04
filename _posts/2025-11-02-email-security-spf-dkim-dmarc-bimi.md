@@ -182,7 +182,6 @@ It’s a satisfying feeling watching everything align:
 SPF, DKIM, and DMARC all returning **pass** — the holy trinity of modern email security.  
 What used to take hours of config tweaking now takes minutes with the right DNS and SaaS tools.
 
-I’ve come a long way from Sendmail on a home IP to Cloudflare dashboards and DMARCian graphs.  
-And while the tools have changed, the curiosity hasn’t. Understanding how mail actually moves across the internet still feels like magic.
+I’ve come a long way from Sendmail on a home IP to Cloudflare dashboards and DMARCian graphs. 
 
 ---
