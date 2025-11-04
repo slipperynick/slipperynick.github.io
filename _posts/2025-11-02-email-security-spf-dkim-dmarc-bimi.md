@@ -14,11 +14,11 @@ tags: [SPF, DKIM, DMARC, BIMI, Microsoft365, Cloudflare, dmarcian, Email]
 
 Back in the late 90s and early 2000s, I got really into email, not just using it but actually running it.
 I registered my first domain and decided to host my own mail server.
-At the time it was all Sendmail, Postfix, and Qmail. I think modern day Gmail is based on Postfix?
+At the time it was all Sendmail, Postfix, and Qmail.
 
 Running your own mail setup felt like a rite of passage.
 You had to:
- - Tweak sendmail.cf or postfix.cf by hand (fun fact: Wietse Venema, who created Postfix, is Dutch)
+ - Tweak sendmail.cf or postfix.cf by hand 
  - Keep a local DNS resolver running
  - Avoid becoming an open relay or risk being blacklisted
  - Hope your ISP didn’t notice you were running a mail server from a home connection
