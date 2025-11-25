@@ -5,7 +5,7 @@ categories: [Homelab, Apple]
 tags: [Apple, Container, macOS, DevTools]
 ---
 
-I’ve been experimenting with Apple’s new **Container** tool — a lightweight, Apple-native alternative to Docker. It’s still early days, but the idea is simple: fast, sandboxed app and service environments that integrate directly with macOS, Xcode, and the new privacy model Apple is pushing.
+I’ve been experimenting with Apple’s new **Container** tool. It's a lightweight, Apple-native alternative to Docker. It’s still early days, but the idea is simple: fast, sandboxed app and service environments that integrate directly with macOS, Xcode, and the new privacy model Apple is pushing.
 
 For now, I’m just walking through the **official tutorial**, getting a feel for how containers are built, run, and how the dev mode behaves. It’s surprisingly clean — no daemon, no Docker Desktop, and very fast on Apple silicon.
 
