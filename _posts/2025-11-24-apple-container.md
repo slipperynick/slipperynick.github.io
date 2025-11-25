@@ -13,4 +13,4 @@ Here’s a short screen capture of me running the first few commands:
 
 ![Apple Container Recording](/assets/img/posts/2025-11-25-apple-container/container.gif){: .normal }
 
-Shout out to asciinema + agg which made this recording extremely easy. 
+Shout out to asciinema + agg which made this recording extremely easy.
