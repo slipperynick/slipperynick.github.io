@@ -14,3 +14,10 @@ Here’s a short screen capture of me running the first few commands:
 ![Apple Container Recording](/assets/img/posts/2025-11-25-apple-container/container.gif){: .normal }
 
 Shout out to asciinema + agg which made this recording extremely easy.
+
+## 📚 References
+
+- [YouTube: Apple Container Demo](https://www.youtube.com/watch?v=TOYlKfA5R80)
+- [Apple Container — GitHub](https://github.com/apple/container)
+- [Apple Containerization — GitHub](https://github.com/apple/containerization)
+- [Kata Containers — GitHub](https://github.com/kata-containers)
