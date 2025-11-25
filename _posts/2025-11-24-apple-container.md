@@ -11,6 +11,6 @@ For now, I’m just walking through the **official tutorial**, getting a feel fo
 
 Here’s a short screen capture of me running the first few commands:
 
-![Apple Container](/assets/img/posts/2025-11-25-apple-container/container.gif)
+![Apple Container Recording](/assets/img/posts/2025-11-25-apple-container/container.gif){: .normal }
 
 As I go deeper, I’ll probably write a more complete guide — maybe a comparison with Docker — but for now this is just day one with a new toy.
