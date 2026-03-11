@@ -1,5 +1,5 @@
 ---
-title: "AI Security Best Practices with Semgrep"
+title: "Semgrep - AI Security Best Practices Ruleset"
 date: 2026-03-10 09:30:00 +0100
 categories: [security, ai, appsec]
 tags: [llm, semgrep, mcp, prompt-injection, code-review]
