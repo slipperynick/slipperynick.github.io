@@ -54,6 +54,7 @@ skill to assess. While using the desktop version of codex for my initial test, I
 
 The prompted desktop codex version seemed more detailed, netherless it still produced a detailed threat-model.
 
+{% include embed/youtube.html id='S-nekP_-L5M' autoplay=true mute=true %}
 
 <details>
 
