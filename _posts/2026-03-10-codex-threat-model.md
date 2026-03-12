@@ -84,8 +84,7 @@ the architecture, generated a data flow diagram, and mapped threats
 using STRIDE, which is generally the structure most threat modeling
 exercises follow.
 
-{% include embed/youtube.html id='S-nekP\_-L5M' autoplay=true mute=true
-%}
+{% include embed/youtube.html id='S-nekP_-L5M' autoplay=true mute=true %}
 
 I've already started using this as a learning opporunity and
 threat-modeling both things in my personal life as well as for
