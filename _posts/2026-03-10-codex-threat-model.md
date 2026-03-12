@@ -212,10 +212,7 @@ Examples: Critical – forged JWT to make oneself admin; High – pulling Promet
 3. Replace raw SQL with parameterized queries and upgrade password hashing; add automated tests ensuring queries cannot be injected.
 4. Implement SSRF and upload hardening controls; consider feature flags to disable challenge-only routes in customer-facing deployments.
 
-
 </details>
-
-
 
 I've already started using this as a learning opporunity and threat-modeling both things in my personal life as well as for technology at work. For instance, this is a threat model of the SaaS platform Tray.ai. Codex took public documentation and knowledge of LCNC platforms and created what I consider a very accurate threat model.
 
